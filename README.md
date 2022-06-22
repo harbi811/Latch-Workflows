@@ -1,2 +1,2 @@
 # Latch-Workflows
-Workflows for [https://latch.bio/](Latch platform)
+Workflows for (https://latch.bio/)[Latch platform]
