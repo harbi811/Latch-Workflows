@@ -341,9 +341,7 @@ def gatk_best_practices(
 
     # get gvcf
     return haplotypecaller_task(sorted_dedup_bqsr_bam = sorted_dedup_bqsr_bam, reference = reference)
-    return baseRecalibrator_task(sorted_dedup_input = sorted_dedup_bam, 
-                                    reference = reference, 
-                                    known_sites = known_sites)
+
 
 
 # include steps for genotyping human genomes using machine learning algorithms (CNN)
